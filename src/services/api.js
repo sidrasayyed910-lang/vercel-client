@@ -1,4 +1,4 @@
-const BASE_URL = '/api';
+const BASE_URL = 'https://vercel-server-602.onrender.com/api';
 
 async function request(endpoint, options = {}) {
   const token = localStorage.getItem('codeverse_token');
